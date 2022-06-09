@@ -87,7 +87,7 @@ header .b2{
 }
 
 .b4{
-    border: 2.5px solid #8e8e94;
+    border: 2.5px solid x;
     border-radius: 39px;
     font-size: 15px;
     background-color: white;
@@ -225,6 +225,11 @@ span {
 
 .section-5 article{
     border: 2px solid #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section-5 h3{
@@ -250,7 +255,59 @@ span {
     color: black;
     font-size: 10px;
     font-weight: 100;
-    line-height: 140%;
     letter-spacing: 1px;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-5 li img{
+    width: 15px;
+    height: auto;
+    padding: 5px 0px 10px 10px;
+}
+
+.section-5 li{
+    display: flex;
+    justify-content: left;
+    align-content: space-between;
+}
+
+.section-5 li p{
+    padding: 5px 0px 10px 10px;
+    color: #8e8e94;
+
+}
+
+.section-5 li strong{
+    font-weight: 700;
+    color: #8e8e94;
+}
+
+.section-5 ul{
+    padding-bottom: 37px;
+}
+
+p.month{
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.b5{
+    border: 2.5px solid #ef5466;
+    border-radius: 39px;
+    font-size: 12px;
+    background-color: #ef5466;
+    padding: 6px 35px ;
+    color: white;
+    font-weight: 600;
+}
+
+.b6{
+    border: 2.5px solid #ef5466;
+    border-radius: 39px;
+    font-size: 12px;
+    background-color: #ef5466;
+    padding: 6px 35px;
+    color: white;
+    font-weight: 600;
 }
