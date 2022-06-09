@@ -8,12 +8,14 @@ header{
     padding: 20px 0px 15px 0px;
     border-bottom: 3px solid #f9f9f9;
     align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 header img{
     width: auto;
     height: 30px;
-    margin-left: 90px;
+
 }
 
 header a{
@@ -43,3 +45,212 @@ header .b2{
     color: white;
     font-weight: 600;
 } 
+
+.head{
+    background: url(./img/hero.png) no-repeat right top;
+    width: auto;
+    height: 430px;
+    background-size: 700px;
+    margin-right: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head h1{
+    color: black;
+    font-size:34px;
+    font-weight: 500;
+    line-height: 110%;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.head h2{
+    color: #ef5466;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+
+.b3{
+    border: 2.5px solid #ef5466;
+    border-radius: 39px;
+    font-size: 15px;
+    background-color: #ef5466;
+    padding: 13px 47px;
+    color: white;
+    font-weight: 600;
+}
+
+.b4{
+    border: 2.5px solid #8e8e94;
+    border-radius: 39px;
+    font-size: 15px;
+    background-color: white;
+    padding: 13px 47px;
+    color: #8e8e94;
+    font-weight: 600;
+}
+
+.head a{
+    padding-right: 30px;
+}
+
+.phone{
+    background-color: #f9f9f9;
+}
+
+.phone img{
+    width: 300px;
+    height: auto;
+    padding: 70px 0px 70px 200px;
+}
+
+.phone-right-title{
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 590px;
+    left: 550px;
+}
+
+.phone-right-title h2{
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    padding-bottom: 90px;
+}
+
+.phone-right-text{
+    padding-right: 20px;
+    position: absolute;
+    top: 650px;
+    left: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 125px;
+}
+
+.phone-right-text h3{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    padding: 30px 70px 30px 0px;
+}
+
+.phone-right-text p{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 1px;
+    padding: 0px 40px 30px 0px;
+}
+
+.section-3{
+    display: flex;
+    background-color: #ef5466;
+    padding: 40px 0px 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.section-3 img {
+    width: auto;
+    height: 40px;
+    padding-right: 15px;
+}
+
+.article-3 {
+    width: 500px;
+} 
+
+.section-3 h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.section-3 p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 1px;
+    padding-bottom: 24px;
+}
+
+.section-4-title h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.section-4-title p{
+    color: black;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 140%;
+    letter-spacing: 1px;
+    padding: 48px 40px 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+	
+span {
+    content: "\25BC";
+    color: #2d96c8;
+}
+
+.section-5{
+    display: flex;
+    justify-content: center;
+}
+
+.section-5 article{
+    border: 2px solid #f9f9f9;
+}
+
+.section-5 h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+
+.section-5 h4{
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section-5 p{
+    color: black;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 140%;
+    letter-spacing: 1px;
+    text-align: center;
+}
