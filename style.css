@@ -100,40 +100,35 @@ header .b2{
     padding-right: 30px;
 }
 
-.phone{
+.section-2{
     background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 .phone img{
-    width: 300px;
+    width: 250px;
     height: auto;
-    padding: 70px 0px 70px 200px;
+    padding: 100px 0px 100px 200px;
 }
 
-.phone-right-title{
-    background-color: #f9f9f9;
-    position: absolute;
-    top: 590px;
-    left: 550px;
-}
-
-.phone-right-title h2{
+.phone-right h2{
     color: black;
     font-size: 35px;
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 1px;
-    padding-bottom: 90px;
+    padding-bottom: 25px;
 }
 
 .phone-right-text{
-    padding-right: 20px;
-    position: absolute;
-    top: 650px;
-    left: 550px;
     display: flex;
     justify-content: space-between;
-    margin-right: 125px;
+    gap: 30px;
+    padding-right: 180px;
+    padding-bottom: 100px;
 }
 
 .phone-right-text h3{
@@ -142,7 +137,7 @@ header .b2{
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 1px;
-    padding: 30px 70px 30px 0px;
+    padding: 30px 80px 20px 0px;
 }
 
 .phone-right-text p{
@@ -151,7 +146,6 @@ header .b2{
     font-weight: 300;
     line-height: 140%;
     letter-spacing: 1px;
-    padding: 0px 40px 30px 0px;
 }
 
 .section-3{
@@ -221,15 +215,52 @@ span {
 .section-5{
     display: flex;
     justify-content: center;
+    gap: 5px;
+    padding-bottom: 50px;
 }
 
 .section-5 article{
-    border: 2px solid #f9f9f9;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
+
+.section-5-a1{
+    box-shadow: -2px 0px 5px 1px rgba(142,142,148,0.20);    
+    border: 2px solid #f9f9f9
+}
+
+.section-5-a2{
+    box-shadow: -2px 0px 5px 1px rgba(142,142,148,0.20);    
+    border: 2px solid #f9f9f9;
+    background-color: #2d96c8;
+}
+
+.section-5 .title-a2 {
+    color: white;
+}
+
+.section-5 .price-a2 {
+    color: white;
+}
+
+.section-5 .month-a2 {
+    color: white;
+}
+
+.section-5 .list-a2 strong, .no-strong{
+    color: white;
+}
+
+.section-5 .no-strong{
+    color: white;
+}
+
+.section-5-a3{
+    box-shadow: 2px 0px 5px 1px rgba(142,142,148,0.20);    
+    border: 2px solid #f9f9f9
 }
 
 .section-5 h3{
@@ -289,14 +320,23 @@ span {
 
 p.month{
     padding-top: 1px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    color: #2d96c8;
+    font-weight: 500;
+}
+
+p.monthPrenium{
+    padding-top: 1px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 500;
 }
 
 .b5{
-    border: 2.5px solid #ef5466;
+    border: 2.5px solid #8e8e94;
     border-radius: 39px;
     font-size: 12px;
-    background-color: #ef5466;
+    background-color: #8e8e94;
     padding: 6px 35px ;
     color: white;
     font-weight: 600;
@@ -311,3 +351,141 @@ p.month{
     color: white;
     font-weight: 600;
 }
+
+.info{
+    color: #2d96c8;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.infoP{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-6{
+    color: #8e8e94;
+    font-size: 8px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 120%;
+    text-align: center;
+    padding: 0px 90px 50px 90px;
+}
+
+.section-7 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section-7-a1{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.section-7 h3{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    padding: 20px 0px 7px 0px;
+}
+
+.section-7 h3 strong{
+    color: #ef5466;
+}
+
+.section-7 p{
+    color: black;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.section-7 a{
+    color: #2d96c8;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section-7 button{
+    border: 1.5px solid black;
+    border-radius: 39px;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    padding: 8px 40px;
+    color: black;
+    font-weight: 600;
+}
+
+.section-7-a2{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.section-7-a3{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: black;
+
+}
+
+.footer-1{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-2 li{
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.footer-2 .title{
+    color: #8e8e94;
+    font-size: 11px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
