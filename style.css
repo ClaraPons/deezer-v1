@@ -534,3 +534,39 @@ footer{
     border: none;
     font-size: 10px;
 }
+
+
+@media (max-width: 898px) {
+    nav {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        background: url(./img/burger.png) no-repeat right;
+        background-size: 30px;
+        margin-right: 20px;
+    }
+    .head{
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        background-position: 50% 390px;
+        background-size: 450px;
+        padding-bottom: 230px;
+    }
+    .head a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        padding-bottom: 10px;
+    }
+    .section-2 img{
+        display: none;
+    }
+
+    .phone-right{
+        
+    }
+  }
