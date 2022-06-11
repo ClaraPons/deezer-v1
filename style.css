@@ -160,7 +160,7 @@ header .b2{
 
 .section-3 img {
     width: auto;
-    height: 40px;
+    height: 50px;
     padding-right: 15px;
 }
 
@@ -202,7 +202,7 @@ header .b2{
     font-weight: 100;
     line-height: 140%;
     letter-spacing: 1px;
-    padding: 48px 40px 10px 0px;
+    padding: 48px 0px 10px 0px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -251,7 +251,7 @@ span {
     color: white;
 }
 
-.section-5 .list-a2 strong, .no-strong{
+.section-5 .list-a2 strong{
     color: white;
 }
 
@@ -427,7 +427,7 @@ p.monthPrenium{
 }
 
 .section-7 button{
-    border: 1.5px solid black;
+    border: 2px solid black;
     border-radius: 39px;
     font-size: 12px;
     background-color: #f9f9f9;
@@ -463,6 +463,15 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+.footer-1 img{
+    width: 150px;
+}
+
+.footer-1 .google{
+    width: 159px;
 }
 
 .footer-2{
@@ -586,14 +595,19 @@ footer{
     .phone-right{
         text-align: center;
         padding-top: 40px;
+        margin-bottom: 0px;
     }
 
     .phone-right-text {
-        margin-right:  20px;
+        margin-right: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: left;
+    }
+
+    .phone-right-text h3{
+        font-size: 26px;
     }
 
     .section-3{
@@ -601,6 +615,7 @@ footer{
         flex-direction: column-reverse;
         text-align: center;
         align-items: center;   
+        gap: 10px;
     }
 
     .section-3 h2{
@@ -613,7 +628,7 @@ footer{
     }
 
     .section-3 img{
-        height: 50px;
+        height: 60px;
         width: auto;
     }
 
@@ -621,9 +636,147 @@ footer{
         display: none;
     }
 
+    .section-4-title h2{
+        padding-bottom: 50px;
+        font-size: 37px;
+        padding-top: 50px;
+    }
+
     .section-5{
         display: flex;
         flex-direction: column;
+        margin: 0px 100px;
     }
     
-  }
+    .section-5 h3{
+        font-size: 35px;
+        padding-bottom: 0px;
+        font-weight: 700;
+    }
+
+    .section-5 h4{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .section-5 p{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    .section-5 ul{
+        margin-top: 20px;
+    }
+
+    .section-5 li p{
+        font-size: 19px;
+        align-items: flex-start;
+    }
+
+    .section-5 li img{
+        width: 29px;
+        height: auto;
+    }
+
+    .section-5 .reco p{
+        padding-bottom: 0px;
+        padding-top: 10px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .section-5 button{
+        padding: 15px 75px;
+        font-size: 17px;
+        margin: 10px 0px
+    }
+
+    .section-5 a{
+        font-size: 17px;
+    }
+
+    .section-7 p {
+        display: none;
+    }
+    .section-7-a1, .section-7-a2, .section-7-a3{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .section-7 h3{
+        font-size: 35px;
+    }
+
+    .section-7 a{
+        font-size: 15px;
+    }
+
+    .section-7 button{
+        padding: 15px 75px;
+        font-size: 17px;
+    }
+
+    .footer-1 img{
+        width: 220px;
+        height: auto;
+        margin: 80px 0px;
+    }
+
+    .footer-1 .google{
+        width: 235px;
+        height: auto;
+        padding-left: 20px;
+    }
+    
+    .footer-2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+    
+    .footer-2 li .title{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .footer-2 ul{
+        padding-bottom: 55px;
+    }
+
+    .footer-2 li{
+        font-size: 21px;
+        font-weight: 300;
+        padding: 17px 0px;
+    }
+
+    .footer-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:80px;
+    }
+
+    .footer-3 .deezer{
+        order: 1;
+    }
+
+    .footer-3 .social{
+        order: 2;
+        padding-left: 0px;       
+    }
+
+    .footer-3 .social img{
+        width: 31px;
+        padding-right: 20px;
+    }
+
+    .footer-3 .select{
+        order: 3;
+        padding-right: 0px;
+    }
+
+    .footer-3 .select p, select{   
+        font-size: 15px;
+    }
+}
