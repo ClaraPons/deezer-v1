@@ -26,6 +26,10 @@ header a{
     font-size: 18px;
 }
 
+header a:hover{
+    text-decoration: underline;
+}
+
 header .b1{
     border: 2.5px solid #2d96c8;
     border-radius: 39px;
@@ -36,6 +40,12 @@ header .b1{
     font-weight: 600;
 } 
 
+header .b1:hover{
+    background-color: #2d96c8;
+    color: white;
+    cursor: pointer;
+}
+
 header .b2{
     border: 2.5px solid #2d96c8;
     border-radius: 39px;
@@ -45,6 +55,12 @@ header .b2{
     color: white;
     font-weight: 600;
 } 
+
+header .b2:hover{
+    background-color: white;
+    color: #2d96c8;
+    cursor: pointer;
+}
 
 .head{
     background: url(./img/hero.png) no-repeat right top;
@@ -87,14 +103,27 @@ header .b2{
     font-weight: 600;
 }
 
+.b3:hover{
+    background-color: white;
+    color: #ef5466;
+    cursor: pointer;
+}
+
 .b4{
-    border: 2.5px solid x;
+    border: 2.5px solid #8e8e94;
     border-radius: 39px;
     font-size: 15px;
     background-color: white;
     padding: 13px 47px;
     color: #8e8e94;
     font-weight: 600;
+}
+
+.b4:hover{
+    background-color: #8e8e94;
+    color: white;
+    cursor: pointer;
+    border-color: #8e8e94;
 }
 
 .head a{
@@ -343,6 +372,13 @@ p.monthPrenium{
     font-weight: 600;
 }
 
+.b5:hover{
+    background-color: white;
+    color: #8e8e94;
+    cursor: pointer;
+    border-color: #8e8e94;
+}
+
 .b6{
     border: 2.5px solid #ef5466;
     border-radius: 39px;
@@ -352,6 +388,13 @@ p.monthPrenium{
     color: white;
     font-weight: 600;
 }
+
+.b6:hover{
+    background-color: white;
+    color: #ef5466;
+    cursor: pointer;
+}
+
 
 .info{
     color: #2d96c8;
@@ -435,6 +478,14 @@ p.monthPrenium{
     color: black;
     font-weight: 600;
 }
+
+.section-7 button:hover{
+    background-color: #8e8e94;
+    color: white;
+    cursor: pointer;
+    border-color: #8e8e94;
+}
+
 
 .section-7-a2{
     background-color: #f9f9f9;
