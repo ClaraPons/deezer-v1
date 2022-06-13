@@ -63,15 +63,12 @@ header .b2:hover{
 }
 
 .head{
-    background: url(./img/hero.png) no-repeat right top;
-    width: auto;
-    height: 430px;
-    background-size: 700px;
-    margin-right: 50px;
-    margin-left: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background: url(./img/hero.png) no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    background-size: 40%;
+    background-position: 90% 0%;
+    padding: 100px 0px 50px 0px;
 }
 
 .head h1{
@@ -90,7 +87,7 @@ header .b2:hover{
     line-height: 120%;
     letter-spacing: 1px;
     padding-bottom: 40px;
-    padding-right: 750px;
+    width: 45%;
 }
 
 .b3{
@@ -252,9 +249,18 @@ span {
 .section-5 article{
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
+
+.yes::before{
+    content: "✓";
+    padding-right: 5px;
+}
+
+.no::before{
+    content: "✕";
+    padding-right: 5px;
 }
 
 .section-5-a1{
@@ -263,9 +269,18 @@ span {
 }
 
 .section-5-a2{
-    box-shadow: -2px 0px 5px 1px rgba(142,142,148,0.20);    
     border: 2px solid #f9f9f9;
     background-color: #2d96c8;
+}
+
+.yesblue::before{
+    content: "✓";
+    padding-right: 5px;
+}
+
+.no-strong::before{
+    content: "✕";
+    padding-right: 5px;
 }
 
 .section-5 .title-a2 {
@@ -280,7 +295,11 @@ span {
     color: white;
 }
 
-.section-5 .list-a2 strong{
+.section-5 .list-a2 p strong{
+    color: white;
+}
+
+.section-5 .list-a2 p{
     color: white;
 }
 
@@ -321,11 +340,6 @@ span {
     padding-bottom: 30px;
 }
 
-.section-5 li img{
-    width: 15px;
-    height: auto;
-    padding: 5px 0px 10px 10px;
-}
 
 .section-5 li{
     display: flex;
@@ -336,6 +350,7 @@ span {
 .section-5 li p{
     padding: 5px 0px 10px 10px;
     color: #8e8e94;
+    font-size: 12px;
 
 }
 
@@ -346,6 +361,10 @@ span {
 
 .section-5 ul{
     padding-bottom: 37px;
+}
+
+.section-5-a2 ul{
+    padding-bottom: 63px;
 }
 
 p.month{
@@ -624,18 +643,16 @@ footer{
     }
 
     .head{
-        margin-left: 0px;
-        margin-right: 0px;
         text-align: center;
-        background-position: 50% 390px;
+        background-position: 50% 100%;
         background-size: 450px;
-        padding-bottom: 230px;
+        padding-bottom: 400px;
     }
 
     .head h2{
-        padding: 0px 30px 20px 30px;
+        width: 100%;
     }
-
+    
     .head a{
         display: flex;
         flex-direction: column;
@@ -645,8 +662,11 @@ footer{
     }
 
     .head .b3, .b4 {
-        padding: 20px 150px;
-        margin-left: 30px;
+        padding: 20px 140px;
+    }
+
+    .head a{
+        padding-right: 0px;
     }
 
     .section-2 img{
