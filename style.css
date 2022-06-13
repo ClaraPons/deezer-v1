@@ -713,6 +713,11 @@ footer{
         width: auto;
     }
 
+    .section-3 div{
+        height: 90px;
+        overflow: hidden;
+    }
+
     .section-4-title p{
         display: none;
     }
