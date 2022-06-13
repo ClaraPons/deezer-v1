@@ -600,6 +600,9 @@ footer{
     .section-5 .reco{
         display: none;
     }
+    .burger{
+        display: none;
+    }
 }
 
 @media (max-width: 898px) {
@@ -609,10 +612,17 @@ footer{
     header {
         display: flex;
         justify-content: center;
-        background: url(./img/burger.png) no-repeat;
-        background-size: 30px;
-        background-position: 95%;
+        position: relative;
     }
+
+    .burger{
+        display: block;
+        width: 30px;
+        position: absolute;
+        top: calc(50% - 15px);
+        right: 10px;
+    }
+
     .head{
         margin-left: 0px;
         margin-right: 0px;
